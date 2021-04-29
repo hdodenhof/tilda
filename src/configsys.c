@@ -150,6 +150,7 @@ static cfg_opt_t config_opts[] = {
     CFG_BOOL("notaskbar", TRUE, CFGF_NONE),
     CFG_BOOL("blinks", TRUE, CFGF_NONE),
     CFG_BOOL("scroll_on_key", TRUE, CFGF_NONE),
+    CFG_BOOL("bold_is_bright", FALSE, CFGF_NONE),
     CFG_BOOL("bell", FALSE, CFGF_NONE),
     CFG_BOOL("run_command", FALSE, CFGF_NONE),
     CFG_BOOL("pinned", TRUE, CFGF_NONE),
